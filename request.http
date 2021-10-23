@@ -21,6 +21,7 @@ Content-Type: application/json
 ### Dog create
 POST http://localhost:3000/dogs.json 
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzUxMDE1MDB9.gm6gBMzLMmSh650Fod6jIjwmG1yvDRoDMFUMboQLwcw
 
 {
   "name": "Gizmo",
