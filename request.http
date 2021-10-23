@@ -18,3 +18,12 @@ Content-Type: application/json
   "password": "password"
 }
 
+### Dog create
+POST http://localhost:3000/dogs.json 
+Content-Type: application/json
+
+{
+  "name": "Gizmo",
+  "age": 1,
+  "breed": "Bichon Frise"
+}
